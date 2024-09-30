@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+     display: flex;
+   justify-content: center;
+     align-items: center;
+     background-color: rgb(14, 13, 13); 
+
+}
+.calender{
+    background-color: rgb(103, 209, 223);
+    width: 50%;
+    border:none rgb(1, 12, 19);
+    box-shadow: 10px 15px 20px rgb(103, 209, 223);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.month{
+    margin: 0;
+    background-color: rgb(139, 72, 9);
+    color: rgb(14, 230, 14);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: larger;
+}
+.day{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color:  rgb(12, 12, 12);
+}
+.date{
+    font-weight: bolder;
+    font-size: 60px;
+    color: rgb(5, 5, 5);
+}
+.year{
+    margin-bottom: 20px;
+    margin-top: 20px ;
+    font-size: 20px;
+    color: rgb(1, 1, 1);
+}
